@@ -1,3 +1,3 @@
 ```mermaid
 flowchart TD
- id1[(apples)] --> [(Jam)]
+id1[(apples)] --> [(Jam)]
