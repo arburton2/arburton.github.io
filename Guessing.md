@@ -1,2 +1,4 @@
----
-flowchart LR [(apples)] --> [(Jam)]
+'''mermaid
+flowchart TD
+A[Apples] --> B[Jam];
+B[Jam]
