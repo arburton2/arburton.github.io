@@ -1,2 +1,3 @@
 ```mermaid
-flowchart LR
+flowchart TD
+ id1[(apples)] --> [(Jam)]
