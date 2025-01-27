@@ -1,3 +1,2 @@
 ---
-flowchart LR
-[(apples)] --> [(Jam)]
+flowchart LR [(apples)] --> [(Jam)]
