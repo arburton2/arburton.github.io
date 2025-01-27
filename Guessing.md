@@ -1,3 +1,5 @@
-```mermaid
-flowchart TD
+---
+title: Node
+---
+flowchart LR
 id1[(apples)] --> [(Jam)]
