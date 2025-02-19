@@ -17,3 +17,4 @@
 - [Google](https://www.google.com) - I find Google indispensable for researching data
 - [TED Talks](https://www.ted.com) - I find ted talks helpful for society awarness an reserch purposes 
    
+git add lesson6.HTML
