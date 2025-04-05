@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang-"en">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gradebook</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-‹head›
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
 
-‹meta charset="UTF-8"›
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gradebook</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Assignment 1</th>
+        <th>Assignment 2</th>
+        <th>Assignment 3</th>
+      </tr>
+    </thead>
+    <tbody id="gradebook-body">
+      <!-- Rows will be added here with JavaScript -->
+    </tbody>
+  </table>
 
-
-‹meta name "viewport" content-"width«device-width, initial-scale=1.0"›
-‹ title>Gradebook</title>
-
-‹ style>...
-
-</style>
-
-‹/head>
-
-< body>
-<h1>Gradebook</h1›
-
-
-‹table id="gradebook"> ...
-</table>
-</ body>
-«script src-"gradebook.js"></script›
-
+  <script src="gradebook.js"></script>
+</body>
 </html>
-
-
-
